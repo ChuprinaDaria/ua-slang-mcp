@@ -1,6 +1,6 @@
 {
   "name": "ua-slang-mcp",
-  "version": "0.1.0",
+  "version": "2026.4.24",
   "description": "MCP server for live Ukrainian internet language — slang, memes, and phrases for AI agents",
   "type": "module",
   "main": "dist/server.js",
