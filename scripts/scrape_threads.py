@@ -50,6 +50,26 @@ DEFAULT_KEYWORDS = [
 
 THREADS_SEARCH_URL = "https://www.threads.net/search?q={query}&serp_type=default"
 
+# Українські літери яких немає в російській — ґ, є, і, ї
+_UA_CHARS = set("ґєіїҐЄІЇ")
+# Суржик теж ок — якщо є хоч трохи укр. літер або укр. слова
+_UA_MARKERS = {"що", "які", "цей", "але", "або", "також", "щоб", "якщо", "після", "між", "від"}
+
+
+def _has_ukrainian(text: str) -> bool:
+    """Перевіряє чи текст містить українську мову (або суржик)."""
+    # Якщо є специфічно українські літери — точно ок
+    if any(c in _UA_CHARS for c in text):
+        return True
+    # Якщо є характерні українські слова — теж ок
+    words = set(text.lower().split())
+    if words & _UA_MARKERS:
+        return True
+    # Суржик: якщо є хештеги українською
+    if any(c in _UA_CHARS for c in text.replace("#", "")):
+        return True
+    return False
+
 
 def scrape_keyword(page, keyword: str, max_scrolls: int = 5) -> list[dict]:
     """Скрапить пости за одним ключовим словом."""
@@ -77,18 +97,24 @@ def scrape_keyword(page, keyword: str, max_scrolls: int = 5) -> list[dict]:
         "article span",
     ]
 
+    # UI-елементи та сміття які треба скіпати
+    skip_phrases = {
+        "Log in", "Sign up", "Перекласти", "Переклад", "cookie",
+        "Елементи керування", "Докладніше про", "Умови використання",
+        "Політика конфіденційності", "Центр конфіденційності",
+    }
+
     seen_texts = set()
     for selector in selectors:
         elements = page.query_selector_all(selector)
         for el in elements:
             text = el.inner_text().strip()
-            # Фільтруємо: мінімум 15 символів, не дублі, не UI елементи
+            # Фільтруємо
             if (
                 len(text) >= 15
                 and text not in seen_texts
-                and not text.startswith("Log in")
-                and not text.startswith("Sign up")
-                and "cookie" not in text.lower()
+                and not any(skip in text for skip in skip_phrases)
+                and _has_ukrainian(text)
             ):
                 seen_texts.add(text)
                 posts.append(

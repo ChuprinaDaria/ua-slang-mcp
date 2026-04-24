@@ -1119,5 +1119,96 @@
       "суржик"
     ],
     "status": "active"
+  },
+  {
+    "id": "slang_078",
+    "word": "**треш**",
+    "meaning": "щось дике, шокуюче, за межами норми (ситуація, історія)",
+    "example": "Только не в стиле опоздала на 20 минут, а реальный треш, кринж",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_079",
+    "word": "**сз** (сайт знайомств)",
+    "meaning": "абревіатура для «сайт знайомств» (Tinder, Bumble тощо)",
+    "example": "Девочки, переписки с сз, которые многие из вас выкладывают",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 2,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_080",
+    "word": "**вмивашка**",
+    "meaning": "засіб для вмивання обличчя (гель, пінка) — інтернет-сленг замість офіційних назв",
+    "example": "Нам нахєр не потрібно мільйон банок, окрім 1 вмивашки і 1 базового крему",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 2,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_081",
+    "word": "**качалка**",
+    "meaning": "тренажерний зал",
+    "example": "Сидим после качалки в сауне, в мужской раздевалке",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_082",
+    "word": "**їбашити / їбашили**",
+    "meaning": "дуже багато і тяжко працювати, впахувати",
+    "example": "майже всі, хто досяг успіху - реально їбашили, а ви і досі себе заспокоюєте",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_083",
+    "word": "**щіпнути (фотки)**",
+    "meaning": "стягнути / зберегти чужий контент (фото, скрін)",
+    "example": "я фотки щіпнув і у вас останнє фото не рівно сходиться",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 2,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_084",
+    "word": "**зайобаний / зайобана**",
+    "meaning": "вкрай виснажений, на межі, від усього задовбаний",
+    "example": "набагато краще ніж зайобана життям, втомлена, на грані істерики мамка",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
   }
 ]
