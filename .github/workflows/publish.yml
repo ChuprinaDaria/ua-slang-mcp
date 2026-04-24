@@ -1,0 +1,68 @@
+name: Build & Publish to npm
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'ts-src/**'
+      - 'package.json'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript
+        run: npx tsc
+
+      - name: Bump version (date-based)
+        run: |
+          # Версія = YYYY.M.D (без лідуючих нулів)
+          YEAR=$(date +%Y)
+          MONTH=$(date +%-m)
+          DAY=$(date +%-d)
+          VERSION="${YEAR}.${MONTH}.${DAY}"
+
+          # Якщо вже є версія з цією датою — додаємо patch
+          CURRENT=$(node -p "require('./package.json').version")
+          if [[ "$CURRENT" == "$VERSION" ]]; then
+            # Шукаємо останній patch
+            VERSION="${VERSION}.1"
+          elif [[ "$CURRENT" == "${VERSION}."* ]]; then
+            PATCH=$(echo "$CURRENT" | cut -d. -f4)
+            PATCH=$((PATCH + 1))
+            VERSION="${VERSION}.${PATCH}"
+          fi
+
+          npm version "$VERSION" --no-git-tag-version
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "Publishing version: $VERSION"
+
+      - name: Publish to npm
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Commit version bump
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add package.json
+          git diff --staged --quiet || git commit -m "chore: bump version to ${{ env.VERSION }}"
+          git push

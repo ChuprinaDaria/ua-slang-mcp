@@ -13,3 +13,4 @@ venv/
 cookies.json
 logs/
 data/raw/
+node_modules/

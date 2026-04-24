@@ -1,0 +1,16 @@
+ts-src/
+scripts/
+tests/
+rowdata*.md
+.github/
+.venv/
+*.pyc
+__pycache__/
+pyproject.toml
+tsconfig.json
+cookies.json
+logs/
+data/raw/
+data/memes_archive/
+DATASET_STRUCTURE.md
+.mcp.json

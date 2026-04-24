@@ -1,0 +1,48 @@
+{
+  "name": "ua-slang-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for live Ukrainian internet language — slang, memes, and phrases for AI agents",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "ua-slang-mcp": "dist/server.js"
+  },
+  "files": [
+    "dist/",
+    "data/slang.json",
+    "data/streaks.json",
+    "data/memes_active.json",
+    "data/packages/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "keywords": [
+    "mcp",
+    "ukrainian",
+    "slang",
+    "memes",
+    "ai",
+    "language",
+    "nlp",
+    "threads",
+    "claude",
+    "model-context-protocol"
+  ],
+  "author": "Daria Chuprina <dchuprina@lazysoft.pl>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChuprinaDaria/ua-slang-mcp.git"
+  },
+  "homepage": "https://github.com/ChuprinaDaria/ua-slang-mcp",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  }
+}

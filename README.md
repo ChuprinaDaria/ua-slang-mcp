@@ -1,115 +1,195 @@
-# 🇺🇦 UA Slang MCP
+# ua-slang-mcp
 
-**MCP-сервер живої української інтернет-мови для AI-агентів.**
+**MCP server for live Ukrainian internet language — slang, memes, and phrases for AI agents.**
 
-Щоденно збираємо з Threads актуальний сленг, суржик, меми та стійкі вирази — щоб ваші AI-агенти писали як реальні люди, а не як перекладач Google.
+[Українська](#-українська) | [English](#-english)
 
-## Навіщо це
+---
 
-AI-агенти пишуть мертвою мовою. "Це не просто продукт — це рішення". "Зверніть увагу на наступні аспекти". Довге тире, канцелярит, шаблони.
+## 🇬🇧 English
 
-Реальні українці в інтернеті пишуть інакше:
-- "капець, це кринж" — а не "це викликає відчуття незручності"
-- "залітай знайомитись" — а не "запрошуємо до нашої спільноти"
-- "горить жопа від дедлайнів" — а не "відчуваю підвищене навантаження"
-- "крч, скіпнула мітинг" — а не "на жаль, я пропустила зустріч"
+### What is this?
 
-**UA Slang MCP** дає AI-агентам доступ до живого словника, який оновлюється щодня. З датами, трендами, і перевіркою актуальності — щоб не використовувати мертві меми.
+AI agents write dead language. "This is not just a product — it's a solution." Long dashes, bureaucratic tone, templates.
 
-## Три напрямки
+Real Ukrainians on the internet write differently:
+- **"капець, це кринж"** — not "this causes a feeling of discomfort"
+- **"залітай знайомитись"** — not "we invite you to join our community"
+- **"горить жопа від дедлайнів"** — not "I'm experiencing increased workload"
+- **"крч, скіпнула мітинг"** — not "unfortunately, I missed the meeting"
 
-| Напрямок | Що це | Приклад | Оновлення |
-|----------|-------|---------|-----------|
-| **Сленг** | Актуальні слова з трекінгом старіння | кринж, вайб, скіпати, флексити | Щоденна перевірка частоти |
-| **Стрік** | Стійкі вирази/шаблони, завжди актуальні | "Непопулярна думка:", "Я з тих людей, хто..." | Тільки додаються, ніколи не старіють |
-| **Меми** | Динамічні тренди з lifecycle | "Моя токсична риса:", мем з котом "псіхую" | Агресивний трекінг: rising → peak → dead |
+**ua-slang-mcp** gives AI agents access to a living dictionary, updated daily from Threads. With dates, trends, and freshness checks — so your agents never use dead memes.
 
-## Підключення
-
-### Claude Code (CLI / VS Code / JetBrains)
+### Install
 
 ```bash
-claude mcp add ua-slang -- python src/ua_slang_mcp/server.py
+npm install ua-slang-mcp
 ```
 
-Або клонуй репо — `.mcp.json` вже є, підхопиться автоматично.
-
-### HTTP (для будь-якого MCP-клієнта)
+### Connect to Claude Code
 
 ```bash
-python src/ua_slang_mcp/server.py --transport http --port 8000
+# Option 1: npx (always latest)
+claude mcp add ua-slang -- npx ua-slang-mcp
+
+# Option 2: after npm install
+claude mcp add ua-slang -- node node_modules/ua-slang-mcp/dist/server.js
 ```
 
-## Tools для агентів
+### Three data streams
 
-| Tool | Що робить |
-|------|-----------|
-| `get_dataset_info` | Розмір датасету, дата останнього оновлення, покриття |
-| `search_slang("кринж")` | Пошук сленгу — значення, приклад, freshness |
-| `search_streaks("непопулярна")` | Пошук стійких виразів |
-| `get_trending_memes(5)` | Топ мемів зараз за virality_score |
-| `get_trending_slang(5)` | Сленг що росте |
-| `suggest_for_post("кава")` | Підказки сленгу/мемів для теми поста |
-| `check_freshness("вайб")` | Чи слово ще актуальне (verdict: safe/outdated/dead) |
-| `get_daily_package()` | Щоденний пакет: що нового, що deprecated |
-| `get_all_slang()` | Весь активний сленг з датами |
-| `get_all_streaks()` | Всі стійкі вирази |
+| Stream | What | Updates |
+|--------|------|---------|
+| **Slang** | Active words with aging tracking | Daily frequency check |
+| **Streak** | Stable expressions/templates, always relevant | Only added, never expire |
+| **Memes** | Dynamic trends with lifecycle | Aggressive tracking: rising → peak → dead |
 
-**Кожен response містить:**
-- `_dataset_last_updated` — дата останнього оновлення
+### Tools
+
+| Tool | Description |
+|------|-------------|
+| `get_dataset_info` | Dataset size, last update date, coverage |
+| `search_slang(query)` | Search slang — meaning, example, freshness |
+| `search_streaks(query)` | Search stable expressions |
+| `get_trending_memes(limit)` | Top memes by virality_score |
+| `get_trending_slang(limit)` | Rising slang |
+| `suggest_for_post(topic)` | Suggest slang/memes for a post topic |
+| `check_freshness(word)` | Is this word still relevant? (verdict: safe/outdated/dead) |
+| `get_daily_package()` | Daily update package: what's new, what's deprecated |
+| `get_all_slang()` | All active slang with dates |
+| `get_all_streaks()` | All stable expressions |
+
+Every response includes:
+- `_dataset_last_updated` — last dataset update date
 - `_freshness` — today / this_week / this_month / stale
 - `verdict` — safe to use / outdated / dead meme
 
-## Як це працює
+### How it works
 
 ```
-Cron (щодня 08:00)
-  → Playwright скрапить Threads
-  → Claude CLI парсить пости, знаходить нові слова/меми
-  → Скрипт чистки: дедуплікація, merge з існуючими даними
-  → Git push → MCP сервер віддає свіжі дані агентам
+Daily cron
+  → Playwright scrapes Threads
+  → Claude CLI parses posts, finds new words/memes
+  → Cleanup script: deduplication, merge with existing data
+  → npm publish → users get fresh data on next install/update
 ```
 
-## Setup
+### Auto-updates
+
+The npm package is published daily with fresh data. To get updates:
 
 ```bash
-git clone https://github.com/ChuprinaDaria/ua-slang-mcp.git
-cd ua-slang-mcp
-python -m venv .venv && source .venv/bin/activate
-pip install fastmcp playwright httpx
-playwright install chromium
+# Always latest via npx
+npx ua-slang-mcp@latest
 
-# Залогінитись в Threads для скрапінгу
-python scripts/export_cookies.py
-
-# Запустити MCP
-python src/ua_slang_mcp/server.py
+# Or update manually
+npm update ua-slang-mcp
 ```
 
-## Contributing
+### Contributing
 
-Датасет зараз ~111 одиниць і росте щодня. Потрібна допомога:
+Dataset is currently **152 entries** and growing daily. Help needed:
 
-- **Нові слова/меми** — якщо бачиш щось свіже в Threads/TikTok/X — кидай PR або issue
-- **Категоризація** — деякі слова сидять не в тій категорії
-- **Нові джерела** — TikTok коментарі, X/Twitter UA, Reddit UA
-- **Нішевий сленг** — IT, психологія, мами, бізнес, геймінг, ЗСУ
-- **Тести** — покриття для парсера і MCP tools
-- **Клієнти** — інтеграції з іншими AI-платформами
+- **New words/memes** — see something fresh on Threads/TikTok/X? Open a PR or issue
+- **New sources** — TikTok comments, X/Twitter UA, Reddit UA
+- **Niche slang** — IT, psychology, parenting, business, gaming, military
+- **Tests** — coverage for parser and MCP tools
+- **Integrations** — other AI platforms
 
-### Як контрибутити
+#### How to contribute
 
 1. Fork → branch → PR
-2. Або просто створи issue з новим словом/мемом
-3. Формат для нових одиниць — див. `DATASET_STRUCTURE.md`
+2. Or just create an issue with a new word/meme
+3. Format for new entries — see `DATASET_STRUCTURE.md`
 
-## Контакти
+---
+
+## 🇺🇦 Українська
+
+### Що це?
+
+AI-агенти пишуть мертвою мовою. "Це не просто продукт — це рішення". Довге тире, канцелярит, шаблони.
+
+Реальні українці в інтернеті пишуть інакше:
+- **"капець, це кринж"** — а не "це викликає відчуття незручності"
+- **"залітай знайомитись"** — а не "запрошуємо до нашої спільноти"
+- **"горить жопа від дедлайнів"** — а не "відчуваю підвищене навантаження"
+- **"крч, скіпнула мітинг"** — а не "на жаль, я пропустила зустріч"
+
+**ua-slang-mcp** дає AI-агентам доступ до живого словника, який оновлюється щодня з Threads. З датами, трендами, і перевіркою актуальності — щоб не використовувати мертві меми.
+
+### Встановлення
+
+```bash
+npm install ua-slang-mcp
+```
+
+### Підключення до Claude Code
+
+```bash
+# Варіант 1: npx (завжди остання версія)
+claude mcp add ua-slang -- npx ua-slang-mcp
+
+# Варіант 2: після npm install
+claude mcp add ua-slang -- node node_modules/ua-slang-mcp/dist/server.js
+```
+
+### Три напрямки даних
+
+| Напрямок | Що це | Оновлення |
+|----------|-------|-----------|
+| **Сленг** | Актуальні слова з трекінгом старіння | Щоденна перевірка частоти |
+| **Стрік** | Стійкі вирази/шаблони, завжди актуальні | Тільки додаються, ніколи не старіють |
+| **Меми** | Динамічні тренди з lifecycle | Агресивний трекінг: rising → peak → dead |
+
+### Tools
+
+| Tool | Опис |
+|------|------|
+| `get_dataset_info` | Розмір датасету, дата оновлення |
+| `search_slang(query)` | Пошук сленгу — значення, приклад, freshness |
+| `search_streaks(query)` | Пошук стійких виразів |
+| `get_trending_memes(limit)` | Топ мемів за virality_score |
+| `get_trending_slang(limit)` | Сленг що росте |
+| `suggest_for_post(topic)` | Підказки сленгу/мемів для теми поста |
+| `check_freshness(word)` | Чи слово ще актуальне (verdict: safe/outdated/dead) |
+| `get_daily_package()` | Щоденний пакет оновлень |
+| `get_all_slang()` | Весь активний сленг з датами |
+| `get_all_streaks()` | Всі стійкі вирази |
+
+### Автооновлення
+
+npm-пакет публікується щодня зі свіжими даними. Щоб отримувати оновлення:
+
+```bash
+# Завжди остання версія через npx
+npx ua-slang-mcp@latest
+
+# Або оновити вручну
+npm update ua-slang-mcp
+```
+
+### Контрибуції
+
+Датасет зараз **152 записи** і росте щодня. Потрібна допомога:
+
+- **Нові слова/меми** — бачиш щось свіже? Кидай PR або issue
+- **Нові джерела** — TikTok, X/Twitter UA, Reddit UA
+- **Нішевий сленг** — IT, психологія, мами, бізнес, геймінг, ЗСУ
+- **Тести** — покриття для парсера і MCP tools
+
+---
+
+## Contacts
 
 **Lazysoft** — [lazysoft.pl](https://lazysoft.pl)
 
-- LinkedIn, WhatsApp, всі контакти на сайті
-- Автор: Даша Чупріна
+- Telegram: [@dcprn](https://t.me/dcprn)
+- WhatsApp: [Chat](https://wa.me/message/36I75JLAUHYKJ1)
+- Email: [dchuprina@lazysoft.pl](mailto:dchuprina@lazysoft.pl)
 
-## Ліцензія
+Author: **Daria Chuprina**
 
-MIT — використовуй як хочеш, але якщо допоможе — зроби star.
+## License
+
+MIT
