@@ -1210,5 +1210,320 @@
     "category": "general",
     "tags": [],
     "status": "active"
+  },
+  {
+    "id": "slang_085",
+    "word": "грайнд / на грайнді",
+    "meaning": "безперервна, виснажлива праця заради результату; від англ. \"grind\"",
+    "example": "Реальний грайнд — це коли закриваєш браузер і відкриваєш Excel. Решта — естетика для Stories",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_086",
+    "word": "база / це база",
+    "meaning": "щось беззаперечно правильне, стандарт, норма; від англ. \"based\"; Gen Z схвалення",
+    "example": "чорний корсет - це база чи все ж \"на особливий день\"?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_087",
+    "word": "флоп / це флоп",
+    "meaning": "провал, невдача, щось що не злетіло; від англ. \"flop\"",
+    "example": "це хороший Аі контент а це «флоп",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_088",
+    "word": "офер / отримати офер",
+    "meaning": "пропозиція роботи; від англ. \"offer\"; домінує в IT-HR дискурсі",
+    "example": "Я просто хочу прокинутись і замість популярності отримати офер",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_089",
+    "word": "фултайм / фріланс",
+    "meaning": "фултайм = постійна повна зайнятість; фріланс = вільне самозайнятість",
+    "example": "Працюю фултайм у Бельгії в GenAi маркетингу",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_090",
+    "word": "задонатити / задонатити на збір",
+    "meaning": "зробити пожертву/переказ; від \"donate\"",
+    "example": "якщо ви не можете задонатити — це абсолютно нормально",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_091",
+    "word": "камінг аут",
+    "meaning": "публічне розкриття особистої інформації; від англ. \"coming out\"",
+    "example": "Значить так, роблю камінг аут. Розкажу про себе",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_092",
+    "word": "онбординг",
+    "meaning": "процес введення нового співробітника в роботу; від англ. \"onboarding\"",
+    "example": "Через 2 тижні новий кандидат вже вийшов. Почався онбординг. Усі видихнули",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_093",
+    "word": "прокрастиную / прокрастинація",
+    "meaning": "відкладання справ, зволікання; від англ. \"procrastination\"",
+    "example": "Мені 36, і я все думаю що все встигну, тим часом прокрастиную",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_094",
+    "word": "менторство / ментор",
+    "meaning": "наставництво, наставник; від англ. \"mentorship\"",
+    "example": "Найбільш хибна думка про менторство: \"ментор мене навчить\". Ні. Ментор показує дорогу",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_095",
+    "word": "прильот",
+    "meaning": "удар ракети/дрона по цілі; воєнний термін що увійшов у повсякденний дискурс",
+    "example": "Вчорашній прильот в житловий будинок у Дніпрі… від мого у 500 метрах",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_096",
+    "word": "збір (для ЗСУ) / відкрити збір",
+    "meaning": "краудфандингова кампанія на потреби армії або допомоги",
+    "example": "якщо ви у коменти кидаєте свій збір — поставте ще лайк",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_097",
+    "word": "СДУГ / нейродиверсія",
+    "meaning": "Синдром дефіциту уваги та гіперактивності; нейродиверсія = стан нейрологічної відмінності",
+    "example": "диагностировали СДВГ і розширений фенотип аутизма",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_098",
+    "word": "інклюзія / інклюзивність",
+    "meaning": "включення людей з особливостями у загальне суспільство; від англ. \"inclusion\"",
+    "example": "Тому й потрібна інклюзія. Що б ми вміли і знали як жити з такими людьми і дітьми",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_099",
+    "word": "РАС",
+    "meaning": "розлад аутистичного спектра; медична абревіатура що стала загальновживаною",
+    "example": "Шла на діагностику, щоб підтвердити у себе РАС",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_100",
+    "word": "получається / получається що",
+    "meaning": "«виходить», «виявляється»; від рос. \"получается\"",
+    "example": "завтра мені 25. так цікаво, получається, що я вже прожила чверть століття",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_101",
+    "word": "щас / зараз щас",
+    "meaning": "\"зараз\", \"одразу\"; від рос. \"сейчас\"",
+    "example": "щас розкажу",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_102",
+    "word": "нє / нє ну",
+    "meaning": "\"ні\" з емотивним забарвленням; від рос. \"не/нет\"",
+    "example": "нє ну серйозно",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_103",
+    "word": "кєк / кек",
+    "meaning": "сміх, посмішка; від геймерського \"kek\" (WoW)",
+    "example": "кек",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_104",
+    "word": "нормік / нормальо",
+    "meaning": "\"нормально\", \"ок\"; зменшено-суржикова форма",
+    "example": "ну нормік так",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_105",
+    "word": "хз",
+    "meaning": "\"хуй знає\", абревіатура невизначеності",
+    "example": "хз що робити",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_106",
+    "word": "**тупа**",
+    "meaning": "просто, банально (від рос. «тупо» в адвербіальному значенні, адаптоване під укр. фонетику)",
+    "example": "Ти ніколи не вивчиш іноземну мову тупа займаючись 2-3 години на тиждень",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_107",
+    "word": "**мамка**",
+    "meaning": "мама (розмовне, з рос. інтернет-культури, замість укр. «мама/матуся»)",
+    "example": "на грані істерики мамка, яка, банально, не може спокійно посцяти сходити",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
   }
 ]

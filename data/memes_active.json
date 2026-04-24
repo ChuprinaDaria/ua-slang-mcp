@@ -387,5 +387,191 @@
       "особистий мем-наратив; варіант \"моя ера\""
     ],
     "status": "active"
+  },
+  {
+    "id": "meme_022",
+    "title": "Зробити камінг аут:",
+    "format": "text_phrase",
+    "description": "мем-формат для іронічного зізнання — від серйозного до побутового",
+    "example": "Роблю камінг аут: я люблю тупі серіали і не соромлюсь",
+    "template": "Зробити камінг аут: {тема}",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "engagement-мем"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_023",
+    "title": "Не тікай, давай обговоримо",
+    "format": "text_phrase",
+    "description": "іронічний шаблон для запрошення до дебатів у коментарях",
+    "example": "Не тікай, давай обговоримо — хто вважає себе нейродивергентом?",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "Threads-специфічний engagement формат"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_024",
+    "title": "[дія] або я в соплях",
+    "format": "text_phrase",
+    "description": "ультиматум-мем з елементом абсурду; «якщо не X, то я буду плакати»",
+    "example": "Скиньтесь на збір або я в соплях",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "шаблон-ультиматум"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_025",
+    "title": "Якщо ви з [місто], то ви точно [риса]",
+    "format": "text_phrase",
+    "description": "мем-шаблон для регіональних стереотипів; іронічна генералізація",
+    "example": "Якщо ви з Одеси, то ви точно пили кефір з батоном",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "регіональний мем"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_026",
+    "title": "Поки ви сплячки, я вже...",
+    "format": "text_phrase",
+    "description": "мем-хвастощі ранніх пташок або трудоголіків; іронічний або серйозний",
+    "example": "Поки ви сплячки, я вже зробила 40 підйомів, помедитувала і написала 3 пости",
+    "template": "Поки ви сплячки, я вже...",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "self-flex мем"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_027",
+    "title": "Мені нічо не треба, просто скиньтесь на збір",
+    "format": "text_phrase",
+    "description": "волонтерський мем-формат; поєднання скромності із закликом до дії",
+    "example": "Мені нічо не треба на день народження, просто скиньтесь на збір 🫶",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 5.6,
+    "category": "reaction",
+    "tags": [
+      "благодійний мем"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_028",
+    "title": "[тема], і я вам розкажу чому",
+    "format": "text_phrase",
+    "description": "самовпевнений essay-opener; анонс аргументованого монологу",
+    "example": "Українська освіта — шлак, і я вам розкажу чому",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "опінієн-опенер"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_029",
+    "title": "Дивіться що буває\" / \"Дивіться що знайшла",
+    "format": "text_phrase",
+    "description": "показовий вступ до відкриття або кумедного факту",
+    "example": "Дивіться що буває, коли ти не знаєш про СДУГ, але в тебе СДУГ",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "шаблон-відкриття"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_030",
+    "title": "**[група], ваш вихід 💅**",
+    "format": "text_phrase",
+    "description": "шаблон-виклик певної аудиторії поділитись досвідом, «ваша черга на сцену»",
+    "example": "дівчааата, ваш вихід💅🏻 — покажіть найкрінжовіші переписки з чоловіками",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 2,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 1.6,
+    "category": "reaction",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "meme_031",
+    "title": "**Згодні?**",
+    "format": "text_phrase",
+    "description": "engagement-closer після тверджень, провокує дискусію в коментарях",
+    "example": "красивим людям живеться легше. Згодні?",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 2,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 1.6,
+    "category": "reaction",
+    "tags": [],
+    "status": "active"
   }
 ]

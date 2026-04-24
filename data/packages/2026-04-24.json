@@ -3,13 +3,13 @@
   "version": "2026.04.24",
   "last_updated": "2026-04-24",
   "stats": {
-    "total_slang_active": 84,
-    "total_streaks": 13,
-    "total_memes_active": 21,
+    "total_slang_active": 107,
+    "total_streaks": 14,
+    "total_memes_active": 31,
     "new_today": {
-      "slang": 3,
-      "streaks": 0,
-      "memes": 0
+      "slang": 8,
+      "streaks": 1,
+      "memes": 10
     }
   },
   "parsing_source": "threads"

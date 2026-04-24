@@ -214,12 +214,13 @@ def process_rawdata(filepath: Path) -> dict:
         if not section.strip():
             continue
 
-        # Визначаємо тип
-        header_match = re.match(r"РОЗДІЛ \d+\s*—\s*\S+\s*(.+?)(?:\n|$)", section)
+        # Визначаємо тип — підтримуємо заголовки з і без емоджі
+        header_match = re.match(r"РОЗДІЛ \d+\s*—\s*(.+?)(?:\n|$)", section)
         if not header_match:
             continue
 
-        section_type = detect_section_type(header_match.group(1))
+        header_text = header_match.group(1).strip()
+        section_type = detect_section_type(header_text)
         entries = parse_section(section)
 
         for entry in entries:
