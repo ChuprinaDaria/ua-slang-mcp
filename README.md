@@ -102,6 +102,8 @@ Dataset is currently **152 entries** and growing daily. Help needed:
 2. Or just create an issue with a new word/meme
 3. Format for new entries — see `DATASET_STRUCTURE.md`
 
+**Your data is welcome in any format.** Got a list of slang words in a Google Doc, a CSV, a screenshot, raw JSON, or just a messy text dump? Submit it via PR — we'll sort it out. Any format, any structure, any size. The more sources, the richer the dataset.
+
 ---
 
 ## 🇺🇦 Українська
@@ -177,6 +179,8 @@ npm update ua-slang-mcp
 - **Нові джерела** — TikTok, X/Twitter UA, Reddit UA
 - **Нішевий сленг** — IT, психологія, мами, бізнес, геймінг, ЗСУ
 - **Тести** — покриття для парсера і MCP tools
+
+**Дані у будь-якому форматі — welcome.** Є список слів у Google Doc, CSV, скрін, JSON, просто текстовий файл? Кидай PR — розберемось. Будь-який формат, будь-яка структура, будь-який розмір. Чим більше джерел — тим живіший датасет.
 
 ---
 
