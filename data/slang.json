@@ -1,0 +1,1123 @@
+[
+  {
+    "id": "slang_001",
+    "word": "кринж / кринжовий",
+    "meaning": "щось настільки незручне або дивне, що викликає відразу / \"secondhand embarrassment\"",
+    "example": "Це кринж або наоборот +100 к атмосфері?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_002",
+    "word": "вайб / вайбовий / вайбити",
+    "meaning": "атмосфера, настрій, \"відчуття\" місця або моменту",
+    "example": "Я готова чекати скільки завгодно, якщо у нас буде такий вайб",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "похідні: «вайбово» (прислівник), «вайб-кодинг» (нові гібриди)"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_003",
+    "word": "краш / джим краш",
+    "meaning": "людина, до якої є романтична симпатія; ідол / \"crush\"",
+    "example": "в мене в тредс появився краш",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: «джим краш» = людина, яка подобається в залі; кальки-розширення"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_004",
+    "word": "хейт / хейтити / хейтер",
+    "meaning": "ненависть, ненавидіти, ненависник",
+    "example": "Нариваюся на хейт",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "морфологія: «захейтили» (дієслово доконаного виду)"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_005",
+    "word": "токсик / токсичний",
+    "meaning": "людина або середовище з негативною, деструктивною поведінкою",
+    "example": "перший токсик в вашій жизні мать?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_006",
+    "word": "стрем / стремний",
+    "meaning": "щось/хтось, хто викликає нездоровий, хворобливий інтерес; від \"cringe\" + \"extreme\"; або «страшно-дивний»",
+    "example": "Стрем або норм? Краш або кринж? БК або КФС?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: часто використовується в парі з «норм» як бінарний вибір"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_007",
+    "word": "ред флаг / ред флаги",
+    "meaning": "тривожний сигнал у стосунках або поведінці; попередження",
+    "example": "Це стрем, кринж, ред флаг",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_008",
+    "word": "хайп / хайповий / захайпований",
+    "meaning": "надмірний ажіотаж, популярність; те, що \"зараз у тренді\"",
+    "example": "цей хайп навколо Gallup тесту — ту мач",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_009",
+    "word": "чілити / почілити",
+    "meaning": "відпочивати, розслаблятися, \"нічого не робити\"",
+    "example": "пора на роботу і чілити ввечері?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "морфологія: повністю проспрягується як дієслово 2 дієвідміни"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_010",
+    "word": "зашквар / зашкваритися",
+    "meaning": "щось ганебне, що компрометує людину; \"опозоритися\"",
+    "example": "Побачила зашквар",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_011",
+    "word": "кенселінг / кенселити",
+    "meaning": "публічне «відміняння» людини, бойкот; \"cancel culture\"",
+    "example": "люди в білих пальтах, які починають битись в конвульсіях від слова \"хейт\" і \"кенселінг\"",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_012",
+    "word": "газлайтинг / газлайтити",
+    "meaning": "форма психологічного маніпулювання, при якій жертву змушують сумніватися у власній реальності",
+    "example": "газлайтинг — форма психологічного насильства",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: термін із психології, що вийшов у мейнстрім через соцмережі"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_013",
+    "word": "абьюз / абьюзер / абьюзивний",
+    "meaning": "насильство (психологічне/фізичне), кривдник у стосунках",
+    "example": "відносини з абьюзерами",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_014",
+    "word": "рілс / рілси",
+    "meaning": "короткі відео у форматі Instagram Reels",
+    "example": "рілс мейкер",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_015",
+    "word": "капець / капець прикол",
+    "meaning": "пом'якшена форма від \"капут\"; вживається як вигук здивування, жаху або захвату",
+    "example": "Капець, тут багато гарних хлопців",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_016",
+    "word": "ту мач",
+    "meaning": "\"занадто багато\"; надмір чогось (від \"too much\")",
+    "example": "цей хайп навколо Gallup тесту — ту мач",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_017",
+    "word": "контент / контент-мейкер",
+    "meaning": "будь-який медіа-матеріал для соцмереж; людина, яка його створює",
+    "example": "рілс мейкер",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_018",
+    "word": "нормасно",
+    "meaning": "\"нормально\" (з іронічним суфіксом \"-асно\" або помилкою у вимові)",
+    "example": "нормасно так закрила робочий день",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "фонетична аномалія/гра слів; гібрид укр. + рос. вимови",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_019",
+    "word": "шо / шо за / шо таке",
+    "meaning": "\"що\" (рос./діалектна форма); \"що таке\", \"що за\"",
+    "example": "Шо ви брадяги, мені пише кохання моєї юної молодості",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: одна з найпоширеніших суржикових форм; сприймається як розмовна норма",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_020",
+    "word": "всьо / усьо",
+    "meaning": "\"все\" (рос. \"всё\" → укр. \"все\"); вживається для фінальності",
+    "example": "всьо поплив",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_021",
+    "word": "нада / надо",
+    "meaning": "\"треба\" / \"потрібно\" (рос. \"надо\")",
+    "example": "А шо тут взагалі нада робити?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_022",
+    "word": "зара / зараз",
+    "meaning": "\"зараз\" (скорочена/розмовна форма, часто суржик)",
+    "example": "зара дідо розкаже",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_023",
+    "word": "по тому / по тій",
+    "meaning": "\"після того\" (калька з рос. \"после того\"); помилкове вживання прийменника",
+    "example": "Єбнула гік стайл лендинг і по тому",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_024",
+    "word": "по любому",
+    "meaning": "\"напевно\", \"точно\", \"у будь-якому разі\" (рос. \"по-любому\")",
+    "example": "[зустрічається в розмовних постах як \"напевно\"]",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_025",
+    "word": "брадяги",
+    "meaning": "\"бродяги\" → звертання до друзів, використовується affectionately (рос./суржик)",
+    "example": "Шо ви брадяги, мені пише кохання моєї юної молодості",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "рос. жаргон з укр. контекстом",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_026",
+    "word": "пахєру / нахєра",
+    "meaning": "нецензурне \"навіщо це треба\" / \"до лампочки\" (рос. жаргон)",
+    "example": "коли тобі весь час пахєру, чи прочитають твій допис",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 2,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: збережена рос. вимова в укр. тексті",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_027",
+    "word": "нафіг / нахрін",
+    "meaning": "\"навіщо\", \"до дідька\" (пом'якшена нецензурна форма)",
+    "example": "нафіг майже знесла бекенд",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_028",
+    "word": "Єсли шо / якшо",
+    "meaning": "\"якщо що\" — суржикова форма застереження (рос. \"если что\")",
+    "example": "Єсли шо, мова все ще про точку Немо",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_029",
+    "word": "по ходу",
+    "meaning": "\"напевно\", \"схоже що\", \"здається\" (рос. жаргон \"по ходу\")",
+    "example": "по ходу і ходять на її ефіри",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_030",
+    "word": "отако бля / та бля",
+    "meaning": "вигук-коментар, підсумок ситуації; суміш укр. «отак» + рос./суржик «бля»",
+    "example": "Отако бля, тільки спитав у Вас чим можна себе зайняти тут",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_031",
+    "word": "ніби / наче + рос. конструкції",
+    "meaning": "\"наче\", \"ніби\"; вживається в суржику часто з рос. конструкцією «как бы»",
+    "example": "кодити з виразом обличчя ніби ти записуєш ще одну філософську думку",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_032",
+    "word": "айтішці / в айтішці",
+    "meaning": "\"в ІТ-сфері\" (локатив від \"ІТ\" + суржикова флексія)",
+    "example": "саме в айтішці, виби знали",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_033",
+    "word": "апдейт / апдейт по ситуації",
+    "meaning": "оновлення, повідомлення про стан справ; від англ. \"update\"",
+    "example": "Апдейт по ситуації — вернулись повідомлення...",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "морфологія: використовується як іменник, часто як початок посту"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_034",
+    "word": "флексити / флекс",
+    "meaning": "хизуватися, демонструвати статус або досягнення; від англ. \"flex\"",
+    "example": "потрібні тільки щоб флексити, користуватись застарілими програвачами",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_035",
+    "word": "скіпати / скіпнути",
+    "meaning": "пропускати, ігнорувати; від англ. \"skip\"",
+    "example": "скіпаю режим бустеру та роблю MC mode",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "морфологія: дієслово 2 дієвідміни; «скіпнула» (доконаний вид)"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_036",
+    "word": "гоу / летс гоу",
+    "meaning": "\"пішли!\", \"давай!\", заклик до дії або вираз ентузіазму",
+    "example": "Взаємна підписка в інстаграмі гоу гоу 🔥",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "збережена англ. форма, не перекладається"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_037",
+    "word": "чуваки / чувак",
+    "meaning": "хлопці, друзі, приятелі; звертання (рос./суржик жаргон, повністю інтегрований)",
+    "example": "ну типу серйозно, чуваки, це ж не бета версія ПЗ",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: попри рос. походження, вживається навіть в укр. середовищі"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_038",
+    "word": "нейронка",
+    "meaning": "нейромережа / будь-який AI-інструмент (ChatGPT, Claude тощо); розмовне скорочення",
+    "example": "нейронка накидує болванку, яку я переробляю",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "похідні: «нейронки», «питати нейронку»"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_039",
+    "word": "джипіті / чат джипіті",
+    "meaning": "ChatGPT; фонетична українізація назви",
+    "example": "ніби його писав індус з чатом джипіті",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_040",
+    "word": "деплой / деплоїти",
+    "meaning": "розгортання програмного забезпечення; від англ. \"deploy\"",
+    "example": "Нейронка сама делає деплой. Працює на твоєму хардварі",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_041",
+    "word": "флоу",
+    "meaning": "потік, алгоритм дій, процес; від англ. \"flow\"",
+    "example": "Тепер флоу такий: — Кажу що хочу замовити → Ремі шукає товар...",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_042",
+    "word": "залипнути / залипати",
+    "meaning": "застрягти, загубитися в чомусь (соцмережах, серіалах тощо)",
+    "example": "Вкласти дитину і на 2 години залипнути в тредс...Це вже рахується за вечірній ритуал?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_043",
+    "word": "залітати / залітаєш",
+    "meaning": "заходити (до спільноти, місця, каналу); запрошення долучитись; також \"набирати перегляди\"",
+    "example": "Залітаєш? Тоді вітаємо у MASC SPACE",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_044",
+    "word": "псіхую / псіхуєш",
+    "meaning": "\"зходжу з розуму\", \"нервую\", \"злюся\"; суржикова форма від рос. \"психую\"",
+    "example": "псіхую, виходжу",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: є і як самостійний мем (картинка з котом у вогні)"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_045",
+    "word": "тон оф войс / ТОВ",
+    "meaning": "голос бренду, стиль комунікації; від англ. \"tone of voice\"",
+    "example": "мені не подобається новий тон оф войс МаслоТом",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_046",
+    "word": "кейси",
+    "meaning": "успішні приклади роботи, портфоліо; від англ. \"cases\"",
+    "example": "має багато успішних кейсів",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_047",
+    "word": "бартер / по бартеру",
+    "meaning": "обмін послугами замість оплати (часто між блогерами та брендами)",
+    "example": "Уявіть, що ми з вами працюємо по бартеру",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_048",
+    "word": "ваще / ваще не",
+    "meaning": "\"взагалі\" / \"взагалі не\"; посилення або заперечення (рос. \"вообще\")",
+    "example": "Фізика. Ваще її не понімала",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: дуже характерна суржикова частка, вживається і в суто укр. тексті",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_049",
+    "word": "да ладно / та ладно",
+    "meaning": "\"та годі\", \"та ну\", \"невже\"; вираз недовіри або поступки (рос. \"да ладно\")",
+    "example": "Да ладно",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_050",
+    "word": "нічо собі / нічого собі",
+    "meaning": "\"нічого собі!\", вигук-здивування; від рос. \"ничего себе\"",
+    "example": "нічо такий, не хоч приїхати пива випити?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_051",
+    "word": "чел / чела",
+    "meaning": "людина, хлопець, \"чувак\"; від рос. \"чел\" (скорочення \"человек\")",
+    "example": "Якось лайкнув мене чел з Дв. Бачу військовий",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_052",
+    "word": "на шару / по шарі",
+    "meaning": "безкоштовно, за рахунок когось іншого; \"на халяву\"",
+    "example": "Ну я собі думаю — чо не? Пиво на шару",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_053",
+    "word": "іди загугли / загугли",
+    "meaning": "\"пошукай в Google\"; часто вживається іронічно або зневажливо",
+    "example": "Експерти які скажуть \"іди загугли\" — пожалуйста не пишіть сюда",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "дієслово-неологізм від \"Google\"",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_054",
+    "word": "лол",
+    "meaning": "\"смішно\", \"ха-ха\"; іноді — самоіронія або знецінення; від англ. \"LOL\"",
+    "example": "Ну звісно ми їбались, лол",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "тотальний запозичений мем-вигук, абсолютно асимільований",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_055",
+    "word": "по бартеру",
+    "meaning": "в обмін на послугу, без грошей; суржикова конструкція (рос. \"по\" замість \"за\")",
+    "example": "Уявіть, що ми з вами працюємо по бартеру",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: норм. укр. — \"в обмін\", але \"по бартеру\" повністю домінує в сленгу",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_056",
+    "word": "кому цікаво — у коментах / посилання в коментах",
+    "meaning": "формула заклику до дії у постах; суржикова конструкція \"в коментах\" (замість \"у коментарях\")",
+    "example": "Кому цікаво, посилання залишаємо у коментарях",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_057",
+    "word": "бодіпозитив / бодіпоз",
+    "meaning": "рух за прийняття будь-якого тіла; від \"body positivity\"",
+    "example": "я пропагувала бодінейтральність, але публікую свій плюссайз аутфіт, щоб розвивати бодіпозитив",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "похідні: «бодінейтральність», «плюссайз»"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_058",
+    "word": "бодінейтральність",
+    "meaning": "нейтральне ставлення до тіла — не позитивне й не негативне; більш нюансований термін після \"бодіпозитиву\"",
+    "example": "я пропагувала бодінейтральність, але, блін, я у захваті від свого тіла",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: новіший термін, що витісняє \"бодіпозитив\" у свідомій аудиторії"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_059",
+    "word": "сейф спейс",
+    "meaning": "безпечний простір для вираження думок без осуду; від англ. \"safe space\"",
+    "example": "дружбом в Тбілісі — це горизонтальний сейф спейс",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_060",
+    "word": "аутфіт / плюссайз аутфіт",
+    "meaning": "образ, комплект одягу; від англ. \"outfit\"",
+    "example": "Ваш аутфіт на концерт?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_061",
+    "word": "вигорання / вигораю",
+    "meaning": "емоційне або професійне вигорання; від англ. \"burnout\"",
+    "example": "Я відчуваю що вигораю. Мені здається я вже не можу жити в тому темпі",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "похідні: «вигорів», «вигорання», «синдром вигорання»"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_062",
+    "word": "горить жопа",
+    "meaning": "панічна ситуація, надмірне навантаження, все горить; груба але поширена ідіома",
+    "example": "В мене просто горить жопа! Навчання, практика, пошук роботи, домашні справи",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "ідіома-сленг; підкреслює хаос і перевантаження"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_063",
+    "word": "хот-тейк / інсайт",
+    "meaning": "провокаційна думка, яка може не збігатись із загальноприйнятою; від англ. \"hot take\"",
+    "example": "Душеспасительний інсайт/хот-тейк для людей які задумували вкатуватися в IT",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_064",
+    "word": "джун / мідл / сіньор",
+    "meaning": "рівні IT-спеціалістів (junior / middle / senior); повністю асимільовані",
+    "example": "Я найняв 40 джунів за останні 3 роки",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "морфологія: «джуніор», «джун», «міддл», «сіньор», «мід»"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_065",
+    "word": "вайб-чек",
+    "meaning": "перевірка загального настрою / стану справ у аудиторії; від \"vibe check\"",
+    "example": "вайб чек на 21 квітня 2026: що ми думаємо про AI?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "мем-формат і реальний жанр посту"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_066",
+    "word": "нетворкінг / нетворк",
+    "meaning": "встановлення ділових зв'язків; від англ. \"networking\"",
+    "example": "Давайте зробимо перекличку та великий нетворкінг",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "морфологія: «нетворкінг», «нетворку» (дієслово), «нетворку з вами»"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_067",
+    "word": "ліди / воронка / трафік",
+    "meaning": "потенційні клієнти / маркетингова воронка продажів / веб-трафік; маркетинговий сленг",
+    "example": "#воронка #ліди #бізнес",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "slang_068",
+    "word": "крч / корочє",
+    "meaning": "\"коротше кажучи\", \"загалом\"; скорочення від рос. \"короче\"",
+    "example": "Крч, пройшов співбесіду в Netflix",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: попри рос. походження — повністю асимільований в укр. інтернет-мові"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_069",
+    "word": "шипити / шиплю",
+    "meaning": "1) шипіти як змія (невдоволення); 2) \"shipping\" — фанатська підтримка пари (персонажів або реальних людей)",
+    "example": "А на що шипите ви?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: у значенні \"невдоволення\" — народний мем; у значенні \"shipping\" — фандом-сленг"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_070",
+    "word": "скілл / скілли",
+    "meaning": "навичка, вміння; від англ. \"skill\"",
+    "example": "написав свій MCP, але ще не добрався до скіллів",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "морфологія: \"скілл\", \"скіл\", відмінюється як іменник"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_071",
+    "word": "вайб-кодинг / завайбкодити",
+    "meaning": "написання коду на основі AI-підказок без глибокого розуміння; від \"vibe coding\" (Andrej Karpathy, 2025)",
+    "example": "Однажды я перейду на вайб-кодинг і нікому не скажу, але баги будуть",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "новітній технологічний термін 2025–26 років; активно обговорюється"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_072",
+    "word": "прям / прям зараз",
+    "meaning": "\"прямо\", \"саме зараз\"; від рос. \"прям\" (скорочення \"прямо\")",
+    "example": "Є люди які запізнюються на роботу прям зараз?",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: одне з найчастіших слів суржику, вживається навіть тими, хто намагається говорити українською",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_073",
+    "word": "типа / типу",
+    "meaning": "\"начебто\", \"так би мовити\", \"мовляв\"; від рос. \"типа/типу\"",
+    "example": "ну типу серйозно, чуваки",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: слово-паразит, майже непомітне для тих, хто вживає суржик",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_074",
+    "word": "блін",
+    "meaning": "пом'якшений вигук-лайка; замінник більш грубого слова; від рос. \"блин\"",
+    "example": "Блін, та мені білорусів легше зрозуміти",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "суржикова лайка-замінник; абсолютно вкорінена в розмовній мові",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_075",
+    "word": "крута / крутий",
+    "meaning": "\"чудово\", \"класно\"; від рос. \"крутой\"",
+    "example": "отримали крутий результат",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 9,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: формально не суржик (є в укр. мові), але значення \"класний/чудовий\" — кальки з рос.",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_076",
+    "word": "воркінг-позитив",
+    "meaning": "прийняття свого робочого стилю незалежно від продуктивності; іронічна похідна від \"бодіпозитив\"",
+    "example": "Якщо є боді-позитив, то має бути й воркінг-позитив. Не \"ледачий розпіздяй\", а людина з енергоефективністю",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 2,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "авторський неологізм на основі аналогії",
+      "суржик"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "slang_077",
+    "word": "да? Ладно / та? Ладно",
+    "meaning": "\"невже?\", \"та ну!\" — вираз недовіри або легкого подиву",
+    "example": "да? Ладно",
+    "first_seen": "2024-01-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "category": "general",
+    "tags": [
+      "примітка: відрізняється від \"да ладно\" (п.17 ч.2) тоном: тут більше здивування",
+      "суржик"
+    ],
+    "status": "active"
+  }
+]

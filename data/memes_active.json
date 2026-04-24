@@ -1,0 +1,391 @@
+[
+  {
+    "id": "meme_001",
+    "title": "Виби знали",
+    "format": "text_phrase",
+    "description": "«Хотіли б ви знати / Якби ви тільки знали...»; іронія над наївністю минулого себе або ситуації",
+    "example": "Думав цей стереотип про \"токсичний айті\" перебільшений — ні, не перебільшений. Саме в айтішці, виби знали",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "інтернет-шаблон із Twitter/X; адаптований в українській"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_002",
+    "title": "Фекінг, Чекінг, Єбакінг і... Д'артаньян",
+    "format": "text_phrase",
+    "description": "жарт-формат де перераховуються \"погані\" варіанти + один \"хороший\"; Д'артаньян = ти сам собі",
+    "example": "Фекінг, Чекінг, Єбакінг і... Д'артаньян!",
+    "template": "Фекінг, Чекінг, Єбакінг і... Д'артаньян",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "вірусний жарт / список-мем"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_003",
+    "title": "Ти вже думав?\" / \"Ти вже думала?",
+    "format": "text_phrase",
+    "description": "риторичне питання як початок посту про рефлексію або порівняння; мем-питання",
+    "example": "активно використовується як hook для постів",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "meme_004",
+    "title": "Відчули вайб юності?",
+    "format": "text_phrase",
+    "description": "ностальгійний мем-запит до аудиторії; побачили щось із минулого",
+    "example": "Відчули вайб юності?",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 7,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 5.6,
+    "category": "reaction",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "meme_005",
+    "title": "Інфоцигани",
+    "format": "text_phrase",
+    "description": "іронічне/зневажливе позначення блогерів/коучів, що продають \"знання\" за гроші; мем-слово",
+    "example": "Хочете на прикладі побачити, що таке газлайтинг?",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "неологізм-мем, дуже поширений в україномовному інтернеті"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_006",
+    "title": "Лупанула / Лупанув",
+    "format": "text_phrase",
+    "description": "\"зробила різко/раптово/багато\" — розмовне, близьке до мемного",
+    "example": "Лупанула сьогодні 6 відео в тік ток, карусель в інста, і рілс. Йобнулась геть",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "meme_007",
+    "title": "Йобнулась / Йобнувся геть",
+    "format": "text_phrase",
+    "description": "\"збожеволіла\", \"занадто багато зробила\"; вигук-резюме",
+    "example": "Лупанула 6 відео в тік ток... Йобнулась геть",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "meme_008",
+    "title": "Тригерну Тредс / Тригернув мене",
+    "format": "text_phrase",
+    "description": "\"спровокував реакцію\", \"зачепив за живе\"; від англ. \"trigger\"",
+    "example": "Тригерну Тредс — Курка, Курва",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [],
+    "status": "active"
+  },
+  {
+    "id": "meme_009",
+    "title": "Залітає на мульйон / Залітає в тренди",
+    "format": "text_phrase",
+    "description": "\"набирає мільйон переглядів / стає вірусним\"",
+    "example": "коли тобі весь час пахєру, чи прочитають твій допис — він залітає на мульйон",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "примітка: «мульйон» = іронічна вимова \"мільйон\""
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_010",
+    "title": "Моя ера ___ ніколи не закінчиться",
+    "format": "text_phrase",
+    "description": "ностальгійний або іронічний мем про прихильність до чогось; \"я все ще в цьому\"",
+    "example": "Моя ера \"хочу Соніка\" нікуди не зникла 💙",
+    "template": "Моя ера ___ ніколи не закінчиться",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "калька з англ. \"my ___ era\" (Taylor Swift-мем), адаптована в укр."
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_011",
+    "title": "Уявіть, що ми працюємо по бартеру",
+    "format": "text_phrase",
+    "description": "комерційний мем-шаблон малого бізнесу та блогерів для пропозиції обміну",
+    "example": "Уявіть, що ми з вами працюємо по бартеру🌸 Я вам мед з горішками, а ви мені що?",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "бізнес-engagement мем"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_012",
+    "title": "Середа, мої чуваки\" / \"П'ятниця, мої чуваки",
+    "format": "text_phrase",
+    "description": "вітання з початком дня тижня; рос. мем-формат \"среда мои чуваки\", адаптований",
+    "example": "середа мої чуваки",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "сезонний мем-формат"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_013",
+    "title": "псіхую\" (мем з котом у вогні)",
+    "format": "text_phrase",
+    "description": "реакція на абсурдну або дратівливу ситуацію; конкретний мем-образ",
+    "example": "Поки тіки псіхую 😤",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "image macro мем; адаптований під укр. аудиторію"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_014",
+    "title": "Побігла далі витворять",
+    "format": "text_phrase",
+    "description": "іронічне завершення посту — \"пішла займатись своїми справами\"",
+    "example": "Дякую за увагу. Люблю❤️. Цьом. Побігла далі витворять",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "особистий фінальний підпис-мем; автентично українська форма"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_015",
+    "title": "Скажи свою непопулярну думку і тікай:",
+    "format": "text_phrase",
+    "description": "провокаційний формат для дискусії; агресивніша версія \"непопулярна думка\"",
+    "example": "скажи свою непопулярну думку і тікай : мені не подобається новий тон оф войс МаслоТом",
+    "template": "Скажи свою непопулярну думку і тікай: {тема}",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "Threads engagement-формат (варіант \"непопулярної думки\")"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_016",
+    "title": "Хот-тейк: ...",
+    "format": "text_phrase",
+    "description": "формат посту з провокаційною думкою; анонс суперечливої позиції",
+    "example": "Сейчас буде хот тейк після того як я пожив час у Європі і Азії",
+    "template": "Хот-тейк: ...",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "мем-жанр посту"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_017",
+    "title": "Вайб чек на [дата]:",
+    "format": "text_phrase",
+    "description": "регулярний \"настрій-дайджест\" — пульс спільноти на поточну дату",
+    "example": "вайб чек на 21 квітня 2026: що ми думаємо про AI? боїмося / надихаємось / хз",
+    "template": "Вайб чек на [дата]: {тема}",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "recurring мем-формат; часто з голосуванням"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_018",
+    "title": "Об мої межі раняться лише ті, хто не має своїх",
+    "format": "text_phrase",
+    "description": "афоризм-мем про особисті межі; популярна цитата з психологічного Threads",
+    "example": "Об мої межі раняться лише ті, хто не має своїх",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "цитата-мем з психологічної ніші"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_019",
+    "title": "Пашу як кінь 24/7",
+    "format": "text_phrase",
+    "description": "іронічний або щирий вираз надмірної зайнятості; кліше-мем трудоголіка",
+    "example": "Моя токсична бізнес-риса: я пашу як кінь 24/7 і всім рекомендую",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "стійке словосполучення; близько до мему через гіперактивне використання"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_020",
+    "title": "Радується новому дню і шипить\" (їжачок)",
+    "format": "text_phrase",
+    "description": "мем-образ — милий їжачок з кавою, який все одно \"шипить\"; символ невдоволеної але функціональної людини",
+    "example": "радується новому дню і шипить",
+    "template": "",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "image macro мем; автентично \"пострадянський\" образ"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "meme_021",
+    "title": "Прощавай моя ера ___",
+    "format": "text_phrase",
+    "description": "меланхолійне прощання з певним етапом, предметом, звичкою",
+    "example": "прощавай моя ера Canon 💔 *хейт про техніку не читаю[ типу то херня, а у мене краще ]",
+    "template": "Прощавай моя ера ___",
+    "first_seen": "2026-04-01",
+    "last_seen": "2026-04-24",
+    "frequency_score": 5,
+    "frequency_trend": "stable",
+    "lifecycle_stage": "active",
+    "virality_score": 4.0,
+    "category": "reaction",
+    "tags": [
+      "особистий мем-наратив; варіант \"моя ера\""
+    ],
+    "status": "active"
+  }
+]

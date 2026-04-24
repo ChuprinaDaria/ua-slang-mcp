@@ -1,0 +1,41 @@
+name: Daily UA Slang Update
+
+on:
+  schedule:
+    # Щодня о 06:00 UTC (08:00 Київ, 08:00 Вроцлав літо)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # ручний запуск
+
+permissions:
+  contents: write
+
+jobs:
+  update-dataset:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -e ".[parser]"
+
+      - name: Run parser
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+        run: python scripts/daily_update.py
+
+      - name: Run cleanup
+        run: python scripts/clean_rawdata.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          # Комітимо тільки якщо є зміни
+          git diff --staged --quiet || git commit -m "chore: daily dataset update $(date +%Y-%m-%d)"
+          git push

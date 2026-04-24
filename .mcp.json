@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ua-slang": {
+      "command": "python",
+      "args": ["src/ua_slang_mcp/server.py"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[project]
+name = "ua-slang-mcp"
+version = "0.1.0"
+description = "MCP сервер сучасної української інтернет-мови для AI-агентів"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.4.0",
+]
+parser = [
+    "httpx>=0.27.0",
+]
