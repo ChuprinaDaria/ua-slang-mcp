@@ -1,0 +1,16 @@
+{
+  "package_date": "2026-04-25",
+  "version": "2026.04.25",
+  "last_updated": "2026-04-25",
+  "stats": {
+    "total_slang_active": 107,
+    "total_streaks": 14,
+    "total_memes_active": 31,
+    "new_today": {
+      "slang": 0,
+      "streaks": 0,
+      "memes": 0
+    }
+  },
+  "parsing_source": "threads"
+}
